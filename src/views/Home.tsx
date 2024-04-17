@@ -51,7 +51,7 @@ export default function Home({}: HomeProps) {
 
     return (
     <>
-        <h3 className='text-center'>Welcome to your Tasks list! Let's have a productive day!</h3>
+        <h3 className='text-center mt-3'>Welcome to your Tasks list! Let's have a productive day!</h3>
         <Row className='p-3'>
             <Col md={6}>
                 <Form.Control value={searchTerm} placeholder='Find a Task' onChange={handleInputChange}/>

@@ -17,8 +17,8 @@ export default function TaskCard({ task }: TaskCardProps) {
     // }
 
   return (
-    <Card className='m-5' bg='dark' text='white'>
-      <Card.Header>{task.dueDate}</Card.Header>
+    <Card className='m-3' bg='dark' text='white'>
+      <Card.Header>Due -- {task.dueDate}</Card.Header>
       <Card.Body>
         <Card.Title>{task.title}</Card.Title>
         <Card.Text>{task.description}</Card.Text>
