@@ -1,4 +1,4 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 import { TaskType } from '../types';
 import Card from 'react-bootstrap/Card';
 // import Button from 'react-bootstrap/Button';
@@ -10,14 +10,14 @@ type TaskCardProps = {
 
 export default function TaskCard({ task }: TaskCardProps) {
 
-    const [isComplete, setIsComplete] = useState(false);
+    // const [isComplete, setIsComplete] = useState(false);
 
-    const handleSwitch = () => {
-        setIsComplete(!isComplete)
-    }
+    // const handleSwitch = () => {
+    //     setIsComplete(!isComplete)
+    // }
 
   return (
-    <Card className='my-5' bg='dark' text='white'>
+    <Card className='m-5' bg='dark' text='white'>
       <Card.Header>{task.dueDate}</Card.Header>
       <Card.Body>
         <Card.Title>{task.title}</Card.Title>
